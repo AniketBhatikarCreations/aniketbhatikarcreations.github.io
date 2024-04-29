@@ -1,0 +1,98 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.tutorials-heading {
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+    font-size: 4em;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', Gill Sans; 
+    color: #ff7b00;
+    text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5); 
+    z-index: 100; 
+    white-space: nowrap;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.media-post {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    border: 5px solid #ffffff;
+    background-color: rgb(19, 175, 136);
+    border-radius: 5px;
+    height: auto;
+}
+
+.media-name{
+    display: block;
+    font-size: 2.0em;
+    font-family: "Algerian Regular";
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    max-width: 800px;
+  }
+
+.image-section img {
+    max-height: 400px;
+    height: auto;
+    border: 7px solid #fffbf8;
+    border-radius: 10px;
+}
+
+/* Phone-mode-code */
+@media only screen and (max-width: 600px) {
+
+    .container {
+        text-align: justify; 
+    }
+
+    .tutorials-heading {
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-size: 2.8em;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        font-family: 'Gill Sans', Gill Sans;
+        color: #ff7b00;
+        text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
+        z-index: 100;
+        white-space: nowrap;
+    }
+
+/* Image section */
+    .image-section {
+     max-width: 800px;
+     margin-left: -150px;
+    }
+
+    .image-section img {
+     max-height: 350px;
+     width: auto;
+     height: auto;
+     border: 7px solid #fffbf8;
+     border-radius: 10px;
+    }
+}
+

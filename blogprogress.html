@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aniket Bhatikar Creations</title>
+
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="blogs.css">
+
+
+    <style>
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+    <link rel="icon" type="abc/x-icon" href="abc.png">
+</head>
+
+<body background="bgweb.png">
+    <header>
+        <h1 class="blogs-heading">Blogs</h1>
+    </header>
+    <div class="blog-container-progress">
+        <div class="blog-box-progress">
+            <h1>Spreading the Knowledge: Codeavour awarness session at Progress High School, Panaji</h1>
+            <p class="blog-content" align = "justify">
+                <img src="progress7.jpg" alt="img2!" id="sidebar-image" style="width: 60%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;" title="Group picture along with the participants.">
+
+            On 7 Janurary 2023, I had the privilege to host a transformative workshop at Progress High School, dedicated to shedding light on the captivating world of coding and robotics competitions. Engaging students from grades 5 to 10, the three-hour session served as a beacon of opportunity, held entirely free of charge.
+
+            <br><br>The atmosphere was charged with anticipation as eager minds gathered, brimming with curiosity and a hint of apprehension. One by one, I addressed their concerns, dispelling any lingering doubts and fears surrounding robotics education. Witnessing their newfound enthusiasm was truly rewarding.
+
+            <br><br>During the workshop, I encouraged them to embrace the exhilarating challenge of Codeavour 2022 AI competition, a platform open to all Goa Board students from grades 6 to 10th, completely free of charge. Beyond this, I unveiled a spectrum of innovation-driven STEM competitions facilitated by the Atal Innovation Mission and various government initiatives, igniting sparks of inspiration within each participant.
+
+            <br><br>Acknowledging the invaluable support of Progress High School's management and their dedicated computer teacher, Tr. Maya Kamat, I'm deeply grateful for their unwavering commitment to enriching the educational landscape. Together, we bridged the gap, ensuring that even students from underprivileged backgrounds could venture into the realm of technology and robotics, empowered and inspired to shape their futures.
+
+
+            <br><br>As the workshop drew to a close, I collected their contact information, eager to furnish them with well-deserved e-certificates, a testament to their newfound knowledge and passion. Reflecting on this enriching experience, I'm filled with gratitude for the opportunity to connect with these bright young minds, eager to embark on their journey of discovery and innovation.
+            
+             <br>-Aniket Sushant Bhatikar<br>
+             (as a LegoGoa Axi0m Teammate)
+
+             <b style="font-size: large;"><br><br>Some highlights of the session:</b><br>
+             <img src="progress1.jpg" alt="img2!" id="sidebar-image" style="width: 69%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;" title="Group picture along with the participants.">
+             <img src="progress2.jpg" alt="img2!" id="sidebar-image" style="width: 69%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;" title="Group picture along with the participants.">
+             <img src="progress3.jpg" alt="img2!" id="sidebar-image" style="width: 69%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;" title="Group picture along with the participants.">
+             <img src="progress5.jpg" alt="img2!" id="sidebar-image" style="width: 69%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;" title="Group picture along with the participants.">
+             <img src="progress6.jpg" alt="img2!" id="sidebar-image" style="width: 69%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;" title="Group picture along with the participants.">
+
+             <br><br><b>Date: 7 Janurary 2023</b>  
+            </p>
+        </div>
+    </div>
+
+    <script src="blogs.js"></script>
+    <div id="menu-bar"></div> <!-- menu bar -->
+    <div id="sidebar" class="hidden">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <img src="abc.png" alt="ABC Logo" id="sidebar-image">
+
+        <div id="menu-items">
+            <table>
+                <tr>
+                    <td><a href="index.html" align="center"
+                        id="menu-content">•Home</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="about.html" align="center"
+                        id="menu-content">•About</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="blogs.html" align="center"
+                        id="menu-content">•Blogs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="abcinpress.html" align="center"
+                        id="menu-content">•ABC in
+                            Press</a></td>
+                </tr>
+                <tr>
+                    <td><a href="tutorials.html" align="center"
+                        id="menu-content">•Tutorials</a>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <img src="nse.png" alt="Never Stop Exploring!" id="sidebar-image">
+    </div>
+
+    <div class="social-column">
+        <h2 class="social-text">Connect with <br> ABC:</h2>
+        <div class="social-icons">
+            <!-- social media icons here -->
+            <a href="https://www.youtube.com/@aniketbhatikarcreations"><img src="yt.png" alt="Youtube" title="Youtube"></a> <br>
+            <a href="https://www.linkedin.com/in/aniketbhatikarcreations/"><img src="lk.png" alt="Linkedin" title="Linkedin"></a>
+            <a href="https://github.com/AniketBhatikarCreations"><img src="github.png" alt="GitHub" title="GitHub"></a> <br>
+
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="bluedots.js"></script>
+
+</body>
+</html>

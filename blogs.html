@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ABC: Blogs</title>
+
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="blogs.css">
+
+
+    <style>
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+    <link rel="icon" type="abc/x-icon" href="abc.png">
+</head>
+
+<body background="bgweb.png" style="overflow-x: auto;">
+    <header>
+        <h1 class="blogs-heading">Blogs</h1>
+    </header>
+
+    <div class="blog-post">
+        <a href="blogscratch.html" class="blog-title" >From Gamer to Programmer: A Journey of Innovation and Achievement During COVID-19</a>
+        <p class="blog-description" align = "justify">
+            COVID has changed the lives of many people.It made most of us aware of the online world.
+            Due to the use of phones, many students have <br>developed the habit of playing mobile games.
+            I was also used to playing mobile games on my parents' phones. I used to spend hours cheating <br>
+            myself, and playing games in the name of studying. Books were just lying on the table, and my full attention was on<br>
+            playing games, which I guess...
+        </p>
+    </div>
+    <div class="blog-post">
+        <a href="blogai.html" class="blog-title">Role of Artificial Intelligence in a Student's Life</a>
+        <p class="blog-description">In this 21st century, Artificial Intelligence (AI) has emerged as a powerful tool that ...</p>
+    </div>
+    <div class="blog-post">
+        <a href="blogyuvika.html" class="blog-title">Exploring the Wonders of ISRO Yuvika 2023: A Life-Changing Experience</a>
+        <p class="blog-description">Life is a journey, and sometimes, a single step can transform our lives in unimaginable ways. As I reflect on my own journey, <br>
+            there is one experience that shines brightly - ISRO Yuvika 2023. For two unforgettable weeks, I was fortunate to...
+        </p>
+    </div>
+    <div class="blog-post">
+        <a href="blogprogress.html" class="blog-title">Spreading the Knowledge: Codeavour awarness session at Progress High School Panaji</a>
+        <p class="blog-description">On 7 Janurary 2023, I had the privilege to host a transformative workshop at Progress High School, dedicated to shedding light on the captivating world of coding and robotics competitions. Engaging students from grades 5 to 10, the three-hour session served as a beacon of opportunity, <br>held entirely free...
+        </p>
+    </div>
+
+    <div class="blog-post">
+        <a href="blogmhsoutreach.html" class="blog-title">Exploring the wonders: A journey through Basic Electronics and Robotics workshop in Mushtifund High School</a>
+        <p class="blog-description">On the vibrant days of December 21st and 22nd, 2022, the halls of Mushtifund High School resonated with the...
+        </p>
+    </div>
+
+    <!-- Repeat this structure for each blog post -->
+
+    <script src="blogs.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="menu-bar"></div> <!-- menu bar -->
+    <div id="sidebar" class="hidden">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <img src="abc.png" alt="ABC Logo" id="sidebar-image">
+
+        <div id="menu-items">
+            <table>
+                <tr>
+                    <td><a href="index.html" align="center"
+                        id="menu-content">•Home</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="about.html" align="center"
+                        id="menu-content">•About</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="blogs.html" align="center"
+                        id="menu-content">•Blogs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="abcinpress.html" align="center"
+                        id="menu-content">•ABC in
+                            Press</a></td>
+                </tr>
+                <tr>
+                    <td><a href="tutorials.html" align="center"
+                        id="menu-content">•Tutorials</a>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <img src="nse.png" alt="Never Stop Exploring!" id="sidebar-image">
+    </div>
+
+    <div class="social-column">
+        <h2 class="social-text">Connect with <br> ABC:</h2>
+        <div class="social-icons">
+            <!-- social media icons here -->
+            <a href="https://www.youtube.com/@aniketbhatikarcreations"><img src="yt.png" alt="Youtube" title="Youtube"></a> <br>
+            <a href="https://www.linkedin.com/in/aniketbhatikarcreations/"><img src="lk.png" alt="Linkedin" title="Linkedin"></a>
+            <a href="https://github.com/AniketBhatikarCreations"><img src="github.png" alt="GitHub" title="GitHub"></a> <br>
+
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="bluedots.js"></script>
+
+</body>
+
+</html>

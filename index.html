@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aniket Bhatikar Creations</title>
+
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="social.css">
+
+    <style>
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+    <link rel="icon" type="abc/x-icon" href="abc.png">
+</head>
+
+<body background="bgweb.png" style="overflow-x: hidden;">
+    <div id="menu-bar"></div> <!-- menu bar -->
+    <div id="sidebar" class="hidden">
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <img src="abc.png" alt="ABC Logo" id="sidebar-image">
+
+        <div id="menu-items">
+            <table>
+                <tr>
+                    <td >
+                        <a id="menu-content" href="index.html" align="center" onclick="scrollhome">•Home</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="about.html" align="center"
+                        id="menu-content">•About</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="blogs.html" align="center"
+                        id="menu-content">•Blogs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="abcinpress.html" align="center"
+                        id="menu-content">•ABC in
+                            Press</a></td>
+                </tr>
+                <tr>
+                    <td><a href="tutorials.html" align="center"
+                        id="menu-content">•Tutorials</a>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <img src="nse.png" alt="Never Stop Exploring!" id="sidebar-image-nvm">
+    </div>
+
+    <script src="menu.js"></script>
+    <div class="container">
+        <h1 class="name">Aniket Bhatikar Creations</h1>
+        <div class="slider-container">
+            <div class="slide-container">
+                <img src="ftc.jpg" alt="Image 1" class="slide" title ="Semifinalist and Motivational Award Winner(Raman Division) in First Tech Challenge India 2022-23.">
+                <img src="yuvi.jpg" alt="Image 2" class="slide" title ="ISRO Yuvika 2023 alumini.">
+                <img src="vvm.jpg" alt="Image 3" class="slide" title = "3rd Rank in State Level Vidhyarthi Vigyan Manthan 2023-24.">
+                <img src="trendsetteraward.jpg" alt="Image 4" class="slide" title = "Receiving Trendsetter Award 2022 for Cares Goa Scheme from honourable Chief Minister of Goa, Dr. Pramod Sawant.">
+                <img src="anvika.jpg" alt="Image 5" class="slide" title = "Receiving recognition certificate of Anvika 2023.">
+
+
+            </div>
+            <h1 class="Quote" align = "center" style="color: chartreuse;">"Oppourtunities are created and not gifted."
+                <br>~Aniket Bhatikar</h1>
+        </div>
+    </div>
+    <script src="slideshow.js"></script>
+
+    <div class="social-column">
+        <h2 class="social-text">Connect with <br> ABC:</h2>
+        <div class="social-icons">
+            <!-- social media icons here -->
+            <a href="https://www.youtube.com/@aniketbhatikarcreations"><img src="yt.png" alt="Youtube" title="Youtube"></a> <br>
+            <a href="https://www.linkedin.com/in/aniketbhatikarcreations/"><img src="lk.png" alt="Linkedin" title="Linkedin"></a>
+            <a href="https://github.com/AniketBhatikarCreations"><img src="github.png" alt="GitHub" title="GitHub"></a> <br>
+
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="bluedots.js"></script>
+    <script src="home.js"></script>
+
+
+</body>
+
+</html>

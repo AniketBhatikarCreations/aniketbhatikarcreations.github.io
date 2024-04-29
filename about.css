@@ -1,0 +1,165 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 4em;
+    padding: 20px 0; 
+    margin-bottom: 20px; 
+    font-family: 'Gill Sans', Gill Sans;
+    color: #ff7b00; 
+    text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5); 
+    white-space: nowrap; 
+    overflow-x: hidden;
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+}
+
+.image-frame {
+    margin-right: 20px; 
+}
+
+.image-frame img {
+    border: 7px solid rgb(0, 225, 255);
+    border-radius: 15px; 
+    width: 400px;
+    margin-left: 200px;
+    transition: border-color 0.3s ease; 
+    overflow-x: hidden;
+}
+
+.image-frame img:hover {
+    border-color: #ff4800; 
+}
+
+.about-me {
+    flex-grow: 1;
+}
+
+.about-me-box {
+    margin-top: 10px;
+    border: 5px solid rgb(156, 44, 0);
+    background-color: #ebe97f; 
+    padding: 18px; 
+    border-radius: 10px; 
+    width: 500px;
+    overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: justify;
+}
+
+.history-heading {
+    text-align: center;
+    font-size: 4em;
+    padding: 40px 0; 
+    margin-bottom: 20px; 
+    font-family: 'Gill Sans', Gill Sans;
+    color: #09ff00; 
+    text-shadow: 4px 4px 8px rgb(4, 48, 6); 
+    white-space: nowrap; 
+    overflow-x: hidden;
+}
+
+.history-box {
+    margin-left: 250px;
+    background-color: #e9a7fd;
+    border: 5px solid rgb(43, 4, 58);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    margin-top: -40px; 
+    max-width: 800px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .box-content {
+    font-size: 18px;
+    color: #333;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    body, h1 {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        width: auto;
+    }
+    
+    .about-heading {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 20px; 
+        font-family: 'Gill Sans', Gill Sans;
+        color: #ff7b00; 
+        text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5); 
+        white-space: nowrap; 
+    }
+    .image-frame img {
+        border: 7px solid rgb(0, 225, 255);
+        border-radius: 15px; 
+        width: 300px;
+        display: block;
+        margin-left:50px;
+        margin-right: auto;
+    }
+
+    .about-me-box {
+        margin-top: 340px;
+        display: block;
+        margin-left: -350px;
+        border: 5px solid rgb(156, 44, 0);
+        background-color: #ebe97f; 
+        border-radius: 10px;
+        text-align: justify;
+        width: 300px;
+    }
+    
+    .history-box {
+        margin-left: 0;
+        background-color: #e9a7fd;
+        border: 5px solid rgb(43, 4, 58);
+        padding: 10px;
+        border-radius: 10px;
+        text-align: justify;
+        margin-top: -40px; 
+        max-width: 100%;
+        width: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+      }
+
+      .history-heading {
+        padding-top: 40px;
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px; 
+        font-family: 'Gill Sans', Gill Sans;
+        color: #09ff00; 
+        text-shadow: 4px 4px 8px rgb(4, 48, 6); 
+        white-space: nowrap; 
+        overflow-x: hidden;
+    }    
+}
+  

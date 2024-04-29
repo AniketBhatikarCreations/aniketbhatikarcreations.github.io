@@ -1,0 +1,206 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.media-heading {
+    text-align: center; 
+    font-family: 'Arial', sans-serif;
+    font-size: 4em;
+    padding: 20px 0; 
+    margin-bottom: 20px; 
+    font-family: 'Gill Sans', Gill Sans; 
+    color: #ff7b00; 
+    text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
+    z-index: 100;
+    white-space: nowrap;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.media-post {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    border: 5px solid #91bfda;
+    background-color: rgb(243, 202, 126);
+    border-radius: 5px;
+    height: auto;
+}
+
+.media-name{
+    display: block;
+    font-size: 2.0em;
+    font-family: "Stencil Regular";
+    font-weight: bold;
+    text-decoration: none;
+    color: #140000;
+}
+
+.border-change:hover img{
+    border-color: #250cff;
+}
+
+.image-3 {
+    margin-left: -115px
+}
+
+.image-17{
+    margin-left: 50px;
+}
+
+.image-4{
+    margin-left: 10px;
+}
+
+.image-9 {
+    margin-left: -90px;
+}
+
+.image-10{
+    margin-left: 60px;
+}
+
+.image-13{
+    margin-left: -69px;
+}
+
+.image-15{
+    margin-left:40px;
+}
+
+.image-14{
+    margin-left: -100px;
+}
+
+.image-16{
+    margin-left: 10px;
+}
+
+.image-12{
+    margin-left: -100px;
+}
+
+.ftc1{
+    margin-left: -50px;
+}
+
+.sciffi{
+    margin-left: 10000px;
+}  
+
+.shivaji-1{
+    margin-left: -40px;
+}
+
+.shivajilink-1 {
+    margin-left: -40px;
+}
+
+.shivajilink-2 {
+    margin-left: 20px;
+}
+
+.shivajilink-2-text {
+    margin-left: 140px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .media-heading {
+        text-align: center; 
+        font-family: 'Arial', sans-serif;
+        font-size: 3.5em;
+        padding: 20px 0; 
+        margin-bottom: 20px; 
+        font-family: 'Gill Sans', Gill Sans; 
+        color: #ff7b00; 
+        text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
+        z-index: 100;
+        white-space: nowrap;
+    }
+
+    .media-post {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 5px solid #91bfda;
+        background-color: rgb(243, 202, 126);
+        border-radius: 5px;
+    }
+    
+    .image-section {
+        display: flex;
+        flex-wrap: wrap; /* Allow images to wrap to the next line */
+        justify-content: center;
+        gap: 10px; /* Add some space between images */
+    }
+    
+    .image-section img {
+        max-width: 100%; /* Ensure images don't exceed their container's width */
+        height: auto;
+    }
+
+    .image-3 {
+        margin-left: 0;
+    }
+    
+    .image-17{
+        margin-left: 0;
+    }
+    .image-4{
+        margin-left: 0;
+    }
+    .image-9 {
+        margin-left: 0;
+    }
+    .image-10{
+        margin-left: 0;
+    }
+    .image-13{
+        margin-left: 0;
+    }
+    .image-15{
+        margin-left: 0;
+    }
+    .image-14{
+        margin-left: 0;
+    }
+    .image-16{
+        margin-left: 0;
+    }
+    .image-12{
+        margin-left: 0;
+    }
+    .ftc1{
+        margin-left: 0;
+    }
+    .sciffi{
+        margin-left: 0;
+    } 
+    .shivaji-1{
+        margin-left: 0;
+    }
+    .shivajilink-1 {
+        margin-left: 0;
+    }
+    .shivajilink-2 {
+        margin-left: 0;
+    }
+    .shivajilink-2-text {
+        margin-left: 0;
+    }
+    
+    
+}
+  

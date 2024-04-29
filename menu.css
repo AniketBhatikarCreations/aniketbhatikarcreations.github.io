@@ -1,0 +1,109 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    left:-10px;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    border: 1px solid #291c02;
+    border-right: 2px solid #8B4513;
+    z-index: 1000;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+#menu-content {
+    color:rgb(9, 2, 37);
+    font-size: 150%;
+    font-family:Showcard Gothic Regular;
+}
+
+#sidebar-image {
+    display: block;
+    margin: 20px auto; 
+    width: 100px; 
+    height: auto; 
+}
+
+#sidebar-image-nvm {
+    padding-top: 10px;
+    width: 80%; 
+    margin-left: 20px;
+
+}
+
+#menu-items table a {
+    display: block;
+    padding: 5px;
+}
+
+#menu-items table a:hover {
+    background-color: #ccc;
+    border: 2px solid #a7a6a6;
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden; 
+    }
+
+    #menu-content {
+        color:rgb(9, 2, 37);
+        font-size: 300%;
+        font-family:Showcard Gothic Regular;
+    }
+
+    #sidebar {
+        position: static; 
+        width: 100% ; 
+        background-color: rgb(255, 208, 0); 
+        height: auto;
+        margin: 0; 
+        padding: 5px;
+        border: 7px solid #291c02; 
+        box-sizing: border-box;
+        overflow-y: hidden;
+    }
+
+    #sidebar-image {
+        display: block;
+        margin: 20px auto; 
+        width: 90%; 
+        height: auto; 
+        padding-bottom: 20px;
+    }
+
+    #sidebar-image-nvm {
+        width: 60%; 
+        margin-left: 80px;
+        margin-bottom: -10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #menu-items {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-items a {
+        padding: 5px; 
+        text-decoration: none; 
+        color: #111111; /* Set text color */
+        border-radius: 5px; /* Add rounded corners to links */
+        background-color: #ffe863; /* Change background color on hover */
+
+    }
+
+    #menu-items a:hover {
+        background-color: #5f5d5d; /* Change background color on hover */
+    }
+    
+}
