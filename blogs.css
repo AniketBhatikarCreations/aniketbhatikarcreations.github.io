@@ -361,7 +361,7 @@ body {
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); 
         padding: 20px;
         max-width: 900px;
-        margin-top: 550px
+        margin-top: 620px
     }
     
     .blog-container-ai {
@@ -369,7 +369,7 @@ body {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        padding-bottom: 600px; 
+        padding-bottom: 650px; 
     }
 
     .blog-box-mhsoutreach {
