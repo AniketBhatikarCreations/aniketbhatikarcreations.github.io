@@ -68,7 +68,7 @@ button {
         transform: translateX(-50%);
         font-size: 4em; 
         text-align: center;
-        font-family: 'Gill Sans'; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif'; 
         color: #ff7b00; 
         text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5); 
         z-index: 100;
