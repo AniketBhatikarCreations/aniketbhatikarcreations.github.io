@@ -4,6 +4,14 @@ body, html {
     overflow-x: hidden;
 }
 
+
+@media only screen and (max-width: 600px) {
+    /* Apply styles for screens with a maximum width of 600px (phones) */
+    #lift-doors {
+        display: none; /* Hide the lift doors completely on phones */
+    }
+}
+
 #lift-doors {
     position: absolute;
     top: 0;
@@ -30,8 +38,8 @@ body, html {
 }
 
 .door img {
-    max-width: 50%; /* Adjust the max-width of the image */
-    max-height: 50%; /* Adjust the max-height of the image */
+    max-width: 50%;
+    max-height: 50%; 
     position: absolute;
     top: 50%; /* Position the image vertically centered */
     right: 10px; /* Adjust the distance from the right edge of the rectangle */
