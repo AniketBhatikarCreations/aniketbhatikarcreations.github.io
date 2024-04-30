@@ -8,15 +8,29 @@ body, h1 {
 .blogs-heading {
     text-align: center;
     font-family: 'Arial', sans-serif; 
-    font-size: 4em;
-    padding: 20px 0; 
-    margin-bottom: 20px;
+    font-size: 5em;
+    padding-bottom: 5px; 
     font-family: 'Gill Sans', Gill Sans;
     color: #ff7b00; 
     text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5); 
-    z-index: 100; /* Ensure the name is above the slideshow */
-    white-space: nowrap; /* Prevent line breaks */
+    z-index: 100; 
+    white-space: nowrap;
+}
 
+.blogs-heading img{
+    padding-top: 50px;
+     max-width: 90%;
+     max-height: 90%; 
+     padding-bottom: 50px;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+    font-size: 1.3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fd8dea; 
+    text-align: center;
 }
 
 
@@ -47,6 +61,7 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     color: #00fc0d;
+    transition: border-color 0.3s ease; 
 }
 
 .blog-title:hover {
@@ -315,6 +330,23 @@ body {
         border: 7px solid #291c02; 
         box-sizing: border-box;
     }
+
+    .blogs-heading img{
+        padding-top: 10px;
+        max-width: 50%;
+        max-height: 50%; 
+        padding-bottom: 10px;
+         
+    }
+    
+    .description {
+        text-align: center;
+        font-family: 'Arial', sans-serif; 
+        font-size: 1em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #fd8dea; 
+        text-align: center;
+    }
     
     .blog-box-scratch {
         background-color: #ffd3af; 
@@ -323,8 +355,7 @@ body {
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); 
         padding: 20px;
         width: 300px;
-        margin-top: 4930px;
-        padding-bottom: 30px;
+        margin-top: 4950px;
     }
 
     .blog-container-scratch {
@@ -332,7 +363,7 @@ body {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        padding-bottom: 5000px; /* down padding */
+        padding-bottom: 5020px; /* down padding */
 
     }
 
@@ -343,7 +374,7 @@ body {
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); 
         padding: 20px;
         max-width: 900px;
-        margin-top: 3110px;
+        margin-top: 3150px;
     }
     
     .blog-container-yuvika {
@@ -369,7 +400,7 @@ body {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        padding-bottom: 680px; 
+        padding-bottom: 650px; 
     }
 
     .blog-box-mhsoutreach {
