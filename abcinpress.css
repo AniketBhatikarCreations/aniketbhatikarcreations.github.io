@@ -143,7 +143,7 @@ h1 {
         display: flex;
         flex-wrap: wrap; /* Allow images to wrap to the next line */
         justify-content: center;
-        gap: 10px; /* Add some space between images */
+        gap: 10px; /* Adding some space between images */
     }
     
     .image-section img {
