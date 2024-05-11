@@ -516,7 +516,7 @@ body {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 900px;
-    margin-top: 18000px;
+    margin-top: 16000px;
   }
 
   .blog-container-mhsjourney {
@@ -524,6 +524,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 19000px;
+    padding-bottom: 16000px;
   }
 }
