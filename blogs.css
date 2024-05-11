@@ -490,7 +490,7 @@ body {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 290px;
-    margin-top: 9200px;
+    margin-top: 8900px;
   }
 
   .blog-container-trickiroboticdog {
@@ -498,7 +498,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 8500px;
+    padding-bottom: 9200px;
 
     .video-container-failure {
       width: 250px;
@@ -516,7 +516,7 @@ body {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 900px;
-    margin-top: 12000px;
+    margin-top: 15000px;
   }
 
   .blog-container-mhsjourney {
@@ -524,6 +524,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 17000px;
+    padding-bottom: 12000px;
   }
 }
