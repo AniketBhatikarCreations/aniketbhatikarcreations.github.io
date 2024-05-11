@@ -96,7 +96,7 @@ body {
   max-width: 900px;
 }
 
-.blog-box h1 {
+.h1 {
   text-align: center;
   font-family: "Britannic Bold";
   color: #270350;
@@ -206,7 +206,7 @@ body {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   max-width: 900px;
-  margin-top: 10700px;
+  margin-top: 10800px;
 }
 
 .blog-container-trickiroboticdog {
@@ -222,6 +222,23 @@ body {
   border: 8px solid #4d1f03;
   border-radius: 5px;
   overflow: hidden;
+}
+
+.blog-box-mhsjourney {
+  background-color: #ffd3af;
+  border: 10px solid #74510b;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 900px;
+  margin-top: 7700px;
+}
+
+.blog-container-mhsjourney {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -473,7 +490,7 @@ body {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 290px;
-    margin-top: 9100px;
+    margin-top: 9500px;
   }
 
   .blog-container-trickiroboticdog {
@@ -490,5 +507,23 @@ body {
       border-radius: 5px;
       overflow: hidden;
     }
+  }
+
+  .blog-box-mhsjourney {
+    background-color: #ffd3af;
+    border: 10px solid #74510b;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 900px;
+    margin-top: 18200px;
+  }
+
+  .blog-container-mhsjourney {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 18200px;
   }
 }
