@@ -22,11 +22,11 @@
             z-index: -1;
         }
     </style>
-    
+
     <link rel="icon" type="abc/x-icon" href="abc.png">
 </head>
 
-<body background="bgweb.png" style="overflow-x: hidden;" class="blog-post-page">
+<body background="bgweb.png" class="blog-post-page">
     <header>
         <h1 class="blogs-heading">Blogs</h1>
     </header>
@@ -35,19 +35,18 @@
             <h1 align="justify">Building Tricki: My Journey to Creating a Robot Dog</h1>
             <p class="blog-content" align="justify">
 
-                <img src="trickistyle.JPG" alt="img1!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 100px;  box-sizing: border-box;padding: 0;"
-                    title="#Tricki!">
+                <img src="trickistyle.JPG" alt="img1!" class="blog-image round-100" title="#Tricki!">
+
                 <br><b>Introduction</b><br>
                 Exploring robotic dogs on the internet, especially the one built by IITians from IIT Kanpur, sparked my
                 fascination with robots. After finishing my 10th board exams on April 15, 2024, I decided to turn my
                 idea of building a robot dog into a reality. Drawing from my experience at FTC India 2023, I embarked on
                 this project with the goal of learning about quadruped robots and the challenges they pose.
                 Experiment-based learning fuels my creativity and innovation, and I hope it does the same for you!
+                <br><br>
+
                 <img src="https://media.wired.com/photos/5ee79f9d6f93e879afd83412/master/w_1600,c_limit/Science_Spot.jpg"
-                    alt="img!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 300px; box-sizing: border-box;padding: 0;"
-                    title="A quadruped robot.">
+                    alt="img!" class="blog-image round-300" title="A quadruped robot.">
 
                 <br><br><b>Design and Construction</b><br>
                 <i>Gathering the Materials:</i> Choosing materials for the chassis was my first challenge. Since I
@@ -59,12 +58,11 @@
                 bit
                 difficult and tricky. (chosen from Triumph of Surgery lesson, class 10th English Supplementary Reader)
                 <br> <br>Here is a sketch of Tricki's leg design:<br>
-                <img src="trickiroboticdogsketchleg.jpg" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;"
-                    title="Leg Design.">
+                <img src="trickiroboticdogsketchleg.jpg" alt="img2!" class="blog-image round-100" title="Leg Design.">
 
                 <br><br>Here is the movement of the leg:<br>
-                <video class="video-container" width="auto" height="500" controls>
+
+                <video class="blog-video round-10" controls>
                     <source src="tricki-legdemo.mp4" type="video/mp4">
                     Your browser does not support this video :( :( :(
                 </video>
@@ -77,26 +75,25 @@
                 uniform gravitational distribution was crucial for stability.
 
                 <br><br>A visual of complete structure:
-                <img src="trickidogrobotassembled.jpg" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 30px; box-sizing: border-box;padding: 0;"
-                    title="After assembly.">
+                <img src="trickidogrobotassembled.jpg" alt="img2!" class="blog-image round-30" title="After assembly.">
 
                 <br><br><b>Wiring</b><br>
+
                 Mapping out the wiring connections was a meticulous process, but it helped prevent errors later on. I
                 labelled each servo and carefully selected and connected the wires to ensure proper functionality. I
                 named each servo as LH1, LK1, LH2, LK2, RH1, RK1, RH2 and RK2. R, L, H and K means Right, Left, Hip and
                 Knee. 1 indicates front legs while 2 indicates hind legs.
                 <br><br>Placement of motors:
-                <img src="trickiwiring1.jpg" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 50px; box-sizing: border-box;padding: 0;"
-                    title="Motor placement.">
+
+                <img src="trickiwiring1.jpg" alt="img2!" class="blog-image round-50" title="Motor placement.">
+
                 Only male-to-male jumper wires were needed. From my wire box, I filtered out male-to-male ones. I
                 decided on the black and blue wires for Ground and white and orange for VCC. I used a strip of
                 breadboard to supply power to the servos. Initially, I hadn't decided on the placement and type of
                 battery to use, which became one of my mistakes.
                 <br><br>This is the breakdown for the connections of the wires :
-                <img src="trickiwiring2.jpg" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 50px; box-sizing: border-box;padding: 0;"
+
+                <img src="trickiwiring2.jpg" alt="img2!" class="blog-image round-50"
                     title="Group picture along with the participants.">
 
                 <br><br><b>Programming</b><br>
@@ -110,40 +107,45 @@
                 <i>Adding Grip to the Legs:</i> After noticing a lack of stability, I decided to enhance Tricki's
                 footing by adding clay to the paws. This simple solution provided better traction and improved Tricki's
                 ability to stand and move confidently.
-                <img src="trickirobotdoglegsclay.jpg" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 10px; box-sizing: border-box;padding: 0;">
+
+                <img src="trickirobotdoglegsclay.jpg" alt="img2!" class="blog-image round-10">
+
                 <br><br><i>Preventing Leg Sticking:</i> Another issue I encountered was the legs getting stuck on the
                 ground, hindering smooth movement. To address this, I applied double-sided tape to the feet, ensuring
                 that Tricki's legs moved freely without any obstructions.
-                <img src="trickidoubletapelegs.JPG" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 100px; box-sizing: border-box;padding: 0;">
+
+                <img src="trickidoubletapelegs.JPG" alt="img2!" class="blog-image round-100">
+
                 <br><br><i>Optimizing Paw Stability:</i>
                 While the clay cum double tape solution initially improved Tricki's grip, it proved to be less stable
                 over time, often bending and compromising its performance. To address this issue, I replaced the
                 makeshift paws with paper balls, which provided a more reliable and durable solution.
-                <img src="trickipaperball.JPG" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 50px; box-sizing: border-box;padding: 0;">
+
+                <img src="trickipaperball.JPG" alt="img2!" class="blog-image round-50">
 
                 <br><br><b>Testing</b><br>
                 Although initial testing showed promise, unexpected issues arose, causing Tricki to reset and fall.
                 Despite this setback, the testing phase provided valuable insights for future improvements.
 
                 <br><br>Sitting Position:
-                <img src="tricki sitting.jpg" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 50px; box-sizing: border-box;padding: 0;">
+
+                <img src="tricki sitting.jpg" alt="img2!" class="blog-image round-50">
 
                 <br><br>Stance Position:
-                <img src="trickistance.JPG" alt="img2!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 50px; box-sizing: border-box;padding: 0;">
+
+                <img src="trickistance.JPG" alt="img2!" class="blog-image round-50">
+
                 <br><br>Walking test:
-                <br><video class="video-container" width="auto" height="360" controls>
+                <br>
+                <video class="blog-video round-50" controls>
                     <source src="tricki test 2.mp4" type="video/mp4">
                     Your browser does not support this video :( :( :(
                 </video>
                 <br><br>I tried many ways, but Tricki couldn't make its first walk :(
 
                 <br><br>Supported 1st walk...:
-                <br><video class="video-container" width="auto" height="360" controls>
+                <br>
+                <video class="blog-video round-100" controls>
                     <source src="tricki test.mp4" type="video/mp4">
                     Your browser does not support this video :( :( :(
                 </video>
@@ -170,27 +172,25 @@
                 3-D prints that offer greater durability and structural integrity.
 
                 <br><br><b>Some more Visuals</b>
-                <img src="trickicoding.JPG" alt="img1!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 100px;  box-sizing: border-box;padding: 0;"
-                    title="#Tricki!">
 
-                <br><video class="video-container-failure" controls>
+                <img src="trickicoding.JPG" alt="img1!" class="blog-image round-100" title="#Tricki!">
+
+
+                <br>
+                <video class="blog-video round-10" controls>
                     <source src="trickifailure.mp4" type="video/mp4">
                     Your browser does not support this video :( :( :(
                 </video>
 
-                <img src="trickistyle.JPG" alt="img1!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 100px;  box-sizing: border-box;padding: 0;"
-                    title="#Tricki!">
+                <img src="trickistyle.JPG" alt="img1!" class="blog-image round-100" title="#Tricki!">
 
-                <br><video class="video-container" width="auto" height="360" controls style="border-radius: 50px;">
+                <br>
+                <video class="blog-video round-50" controls>
                     <source src="trickierror.mp4" type="video/mp4">
                     Your browser does not support this video :( :( :(
                 </video>
 
-                <img src="trickitopview.JPG" alt="img1!" id="sidebar-image"
-                    style="width: 50%; border: 7px solid #3f1b02; border-radius: 100px;  box-sizing: border-box;padding: 0;"
-                    title="#Tricki!">
+                <img src="trickitopview.JPG" alt="img1!" class="blog-image round-100" title="#Tricki!">
 
                 <br><br><b>Conclusion</b><br>
                 Building Tricki has been an exciting journey of exploration and discovery. Exploring the mechanism of a

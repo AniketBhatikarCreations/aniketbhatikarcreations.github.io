@@ -355,12 +355,14 @@ body {
     padding-bottom: 10px;
   }
 
-  .sidebar-container, .social-container {
+  .sidebar-container,
+  .social-container {
     width: 100%;
     text-align: center;
-}
+  }
 
-#sidebar, .social-column {
+  #sidebar,
+  .social-column {
     width: 90%;
     max-width: 900px;
     background-color: rgb(255, 208, 0);
@@ -369,152 +371,72 @@ body {
     text-align: center;
     margin: 20px auto 0 auto;
     display: block;
-}
+  }
 
-.sidebar-container {
+  .sidebar-container {
     margin-top: 0;
-}
+  }
 
-.social-container {
-    margin-top: 20px; /* Keeps spacing even */
-}
+  .social-container {
+    margin-top: 20px;
+  }
 
-.blog-post-page #sidebar,
-.blog-post-page .social-column {
+  .blog-post-page #sidebar,
+  .blog-post-page .social-column {
     display: none;
+  }
+
+  .blog-image {
+    width: 100% !important;
+    max-width: 800px !important;
+    height: auto !important;
+    border: 7px solid #3f1b02 !important;
+    border-radius: 10px !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+  }
+
+
+  .round-100 {
+    border-radius: 100px;
+  }
+
+  .round-50 {
+    border-radius: 50px;
+  }
+
+  .round-10 {
+    border-radius: 10px;
+  }
+
+  .blog-image[src*="mushtifund.org"] {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .round-300 {
+    border-radius: 300px;
+  }
+
+  .blog-video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 7px solid #3f1b02;
+    box-sizing: border-box;
+    padding: 0;
 }
 
-  /* .blog-box-scratch {
-    background-color: #ffd3af;
-    border: 10px solid #74510b;
+.round-10 {
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    margin-top: 4950px;
-  }
+}
 
-  .blog-container-scratch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-bottom: 5020px;
-  }
+.round-50 {
+    border-radius: 50px;
+}
 
-  .blog-box-yuvika {
-    background-color: #ffd3af;
-    border: 10px solid #74510b;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 900px;
-    margin-top: 3150px;
-  }
+.round-100 {
+    border-radius: 100px;
+}
 
-  .blog-container-yuvika {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-bottom: 3300px;
-  }
-
-  .blog-box-ai {
-    background-color: #ffd3af;
-    border: 10px solid #74510b;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 900px;
-    margin-top: 650px;
-  }
-
-  .blog-container-ai {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-bottom: 650px;
-  }
-
-  .blog-box-mhsoutreach {
-    background-color: #ffd3af;
-    border: 10px solid #74510b;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 900px;
-    margin-top: 2000px;
-  }
-
-  .blog-container-mhsoutreach {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-bottom: 2050px;
-  }
-
-  .blog-box-progress {
-    background-color: #ffd3af;
-    border: 10px solid #74510b;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 900px;
-    margin-top: 2050px;
-  }
-
-  .blog-container-progress {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-bottom: 2100px;
-  }
-
-  .blog-box-trickiroboticdog {
-    background-color: #ffd3af;
-    border: 10px solid #74510b;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 290px;
-    margin-top: 8900px;
-  }
-
-  .blog-container-trickiroboticdog {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-bottom: 8900px;
-
-    .video-container-failure {
-      width: 250px;
-      height: auto;
-      border: 8px solid #4d1f03;
-      border-radius: 5px;
-      overflow: hidden;
-    }
-  }
-
-  .blog-box-mhsjourney {
-    background-color: #ffd3af;
-    border: 10px solid #74510b;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 900px;
-    margin-top: 4300vw;
-  }
-
-  .blog-container-mhsjourney {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-bottom: 17500px;
-  } */
 }
