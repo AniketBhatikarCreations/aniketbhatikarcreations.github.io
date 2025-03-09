@@ -1,9 +1,15 @@
-/* Resetting default margin and padding */
-body,
 h1 {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
 }
 
 .blogs-heading {
@@ -31,16 +37,6 @@ h1 {
   font-size: 1.3em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #a2ff8b;
-  text-align: center;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
   text-align: center;
 }
 
@@ -73,13 +69,6 @@ h1 {
   color: #bbbbbb;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
-
 .blog-container {
   display: flex;
   justify-content: center;
@@ -87,14 +76,14 @@ body {
   height: 100vh;
 }
 
-.blog-box {
+/* .blog-box {
   background-color: #ffd3af;
   border: 10px solid #74510b;
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   max-width: 900px;
-}
+} */
 
 .h1 {
   text-align: center;
@@ -242,10 +231,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  body,
   h1 {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    text-align: center;
     overflow-x: hidden;
   }
 
@@ -268,36 +258,45 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #f2f2f2;
   }
 
-  h1 {
+  .description {
     text-align: center;
-    overflow-x: hidden;
+    font-family: "Arial", sans-serif;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fd8dea;
+    text-align: center;
   }
 
   .blog-post {
     margin-bottom: 20px;
-    border: 5px solid #91bfda;
-    background-color: rgb(15, 3, 59);
+    border: 5px solid #7f7f7f;
+    background-color: rgb(8, 4, 50);
     border-radius: 5px;
-    width: auto;
-    margin-left: 10px;
+    margin: 10px 5px;
     overflow: hidden;
     height: auto;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
   }
 
   .blog-title {
-    margin-top: -60px;
     text-align: center;
-    display: block;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #00fc0d;
-    overflow-x: hidden;
-    margin-left: -60px;
-    margin-right: -60px;
+    color: #ccff00;
     text-decoration: underline;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+
   }
+
 
   .blog-title:hover {
     color: #96bbff;
@@ -305,26 +304,17 @@ body {
 
   .blog-description {
     font-size: 1em;
-    color: #bbbbbb;
+    color: #80f479;
     text-align: justify;
-    margin-left: -60px;
-    margin-right: -60px;
-    margin-bottom: -60px;
+    margin: 10px 20px;
     overflow-y: hidden;
   }
 
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-  }
-
   .blog-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
   }
 
   .blog-box {
@@ -332,8 +322,13 @@ body {
     border: 10px solid #74510b;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    width: auto;
+    padding: 20px;
+    max-width: 900px;
+    width: 95%;
+    margin: 20px auto 20px auto;
+    box-sizing: border-box;
   }
+
 
   .blog-box h1 {
     text-align: center;
@@ -353,30 +348,6 @@ body {
     overflow: hidden;
   }
 
-  #sidebar {
-    position: static;
-    z-index: 1000;
-    width: 100%;
-    background-color: rgb(255, 208, 0);
-    height: auto;
-    margin: 0;
-    padding: 5px;
-    border: 7px solid #291c02;
-    box-sizing: border-box;
-    overflow-y: hidden;
-  }
-
-  .social-column {
-    position: static;
-    z-index: 1000;
-    width: 100%;
-    height: auto;
-    background-color: rgb(255, 208, 0);
-    padding: 10px;
-    border: 7px solid #291c02;
-    box-sizing: border-box;
-  }
-
   .blogs-heading img {
     padding-top: 10px;
     max-width: 50%;
@@ -384,16 +355,36 @@ body {
     padding-bottom: 10px;
   }
 
-  .description {
+  .sidebar-container, .social-container {
+    width: 100%;
     text-align: center;
-    font-family: "Arial", sans-serif;
-    font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fd8dea;
-    text-align: center;
-  }
+}
 
-  .blog-box-scratch {
+#sidebar, .social-column {
+    width: 90%;
+    max-width: 900px;
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+    border: 7px solid #291c02;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+.sidebar-container {
+    margin-top: 0;
+}
+
+.social-container {
+    margin-top: 20px; /* Keeps spacing even */
+}
+
+.blog-post-page #sidebar,
+.blog-post-page .social-column {
+    display: none;
+}
+
+  /* .blog-box-scratch {
     background-color: #ffd3af;
     border: 10px solid #74510b;
     border-radius: 10px;
@@ -408,7 +399,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 5020px; /* down padding */
+    padding-bottom: 5020px;
   }
 
   .blog-box-yuvika {
@@ -525,5 +516,5 @@ body {
     align-items: center;
     height: 100vh;
     padding-bottom: 17500px;
-  }
+  } */
 }
