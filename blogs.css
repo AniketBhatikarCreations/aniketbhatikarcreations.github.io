@@ -1,15 +1,26 @@
-h1 {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  text-align: center;
-}
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blogs-heading img {
+  width: auto;
+  max-width: 90%;
 }
 
 .blogs-heading {
@@ -73,22 +84,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 20px;
+  min-height: auto;
 }
 
-/* .blog-box {
+.blog-box {
   background-color: #ffd3af;
   border: 10px solid #74510b;
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   max-width: 900px;
-} */
+}
 
 .h1 {
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   text-align: center;
-  font-family: "Britannic Bold";
-  color: #270350;
+  color: #020a20;
+  text-shadow: 3px 3px 8px rgba(66, 211, 255, 0.395);
+  margin-bottom: 10px;
 }
 
 .blog-content {
@@ -97,138 +113,53 @@ body {
   line-height: 1.6;
 }
 
-.video-container {
-  border: 8px solid #4d1f03;
+.blog-image {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  height: auto;
+  border: 5px solid #4d1f03;
   border-radius: 5px;
+}
+
+
+.blog-box {
+  background-color: #ffd3af;
+  border: 10px solid #74510b;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 900px;
   overflow: hidden;
+  word-wrap: break-word;
 }
 
-.blog-box-scratch {
-  background-color: #ffd3af;
-  border: 10px solid #74510b;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+.blog-content {
+  color: #050324;
+  font-family: "Lucida Sans";
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+.blog-image[src="https://mushtifund.org/wp-content/uploads/2024/01/Rectangle-3905-4.webp"] {
+  border: none;
+}
+
+.blog-video {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
   max-width: 900px;
-  margin-top: 1600px;
-}
-
-.blog-container-scratch {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.blog-box-yuvika {
-  background-color: #ffd3af;
-  border: 10px solid #74510b;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 900px;
-  margin-top: 1950px;
-}
-
-.blog-container-yuvika {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.blog-box-ai {
-  background-color: #ffd3af;
-  border: 10px solid #74510b;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 900px;
-  margin-top: 90px;
-}
-
-.blog-container-ai {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.blog-box-mhsoutreach {
-  background-color: #ffd3af;
-  border: 10px solid #74510b;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 900px;
-  margin-top: 1250px;
-}
-
-.blog-container-mhsoutreach {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.blog-box-progress {
-  background-color: #ffd3af;
-  border: 10px solid #74510b;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 900px;
-  margin-top: 3250px;
-}
-
-.blog-container-progress {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.blog-box-trickiroboticdog {
-  background-color: #ffd3af;
-  border: 10px solid #74510b;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 900px;
-  margin-top: 10800px;
-}
-
-.blog-container-trickiroboticdog {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.video-container-failure {
-  height: 360px;
-  width: "auto";
   border: 8px solid #4d1f03;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.blog-box-mhsjourney {
-  background-color: #ffd3af;
-  border: 10px solid #74510b;
   border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 900px;
-  margin-top: 9700px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
-.blog-container-mhsjourney {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.round-10 {
+  border-radius: 10px;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -386,6 +317,10 @@ body {
     display: none;
   }
 
+  img {
+    width: 69%;
+  }
+
   .blog-image {
     width: 100% !important;
     max-width: 800px !important;
@@ -425,18 +360,18 @@ body {
     border: 7px solid #3f1b02;
     box-sizing: border-box;
     padding: 0;
-}
+  }
 
-.round-10 {
+  .round-10 {
     border-radius: 10px;
-}
+  }
 
-.round-50 {
+  .round-50 {
     border-radius: 50px;
-}
+  }
 
-.round-100 {
+  .round-100 {
     border-radius: 100px;
-}
+  }
 
 }
