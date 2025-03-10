@@ -67,7 +67,7 @@ h1 {
     background-color: #ebe97f;
     padding: 18px;
     border-radius: 10px;
-    width: 500px;
+    width: 1000px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     text-align: justify;
@@ -95,8 +95,8 @@ footer {
     bottom: 0;
 }
 
+/* Mobile view adjustments */
 @media only screen and (max-width: 600px) {
-    
     .about-heading {
         font-size: 2.5em;
         margin-bottom: 20px;
@@ -111,7 +111,6 @@ footer {
         width: 90%;
         max-width: none;
     }
-
 
     footer {
         position: relative;
