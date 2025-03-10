@@ -75,31 +75,6 @@ h1 {
     margin-right: auto;
 }
 
-.history-heading {
-    text-align: center;
-    font-size: 3em;
-    padding: 40px 0;
-    margin-bottom: 20px;
-    font-family: 'Gill Sans', Gill Sans;
-    color: #09ff00;
-    text-shadow: 4px 4px 8px rgb(4, 48, 6);
-    white-space: nowrap;
-    overflow-x: hidden;
-}
-
-.history-box {
-    margin-left: 0;
-    background-color: #e9a7fd;
-    border: 5px solid rgb(43, 4, 58);
-    padding: 10px;
-    border-radius: 10px;
-    text-align: justify;
-    margin-top: -40px;
-    max-width: 800px;
-    width: 100%;
-    overflow-x: hidden;
-}
-
 .box-content {
     font-size: 18px;
     color: #333;
@@ -137,16 +112,6 @@ footer {
         max-width: none;
     }
 
-    .history-box {
-        margin-left: 0;
-        max-width: 100%;
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .history-heading {
-        font-size: 2em;
-    }
 
     footer {
         position: relative;
