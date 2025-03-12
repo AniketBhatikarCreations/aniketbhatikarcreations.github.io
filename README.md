@@ -1,6 +1,6 @@
 # Aniket Bhatikar Creations - Official Website
 
-![ABC Logo](abc.png)
+
 
 Welcome to the official website of **Aniket Bhatikar Creations**! This website showcases blogs, tutorials, and various projects by Aniket Bhatikar.
 
@@ -11,11 +11,12 @@ Welcome to the official website of **Aniket Bhatikar Creations**! This website s
 - ✍️ **Blogs**: Articles and experiences shared by Aniket.
 - 📰 **ABC in Press**: Featured mentions and publications.
 - 📚 **Tutorials**: Guides and educational content.
+- 💬 **Comment Section**: Powered by Utterances, allowing GitHub users to engage in discussions.
 - 🔗 **Social Media Links**: Connect with ABC on YouTube, LinkedIn, and GitHub.
 
 ## 🛠️ Technologies Used
 
-![Technologies](tech-stack.png)
+
 
 - **HTML, CSS, JavaScript**: Frontend development
 - **Utterances**: GitHub-powered comment system
@@ -43,5 +44,5 @@ ABC's website is licensed under a **[Creative Commons Attribution-NoDerivatives 
 
 For any inquiries, contact via GitHub or social media links available on the website!
 
-📩 Or drop your query at **aniketbhatikar11 [at] gmail [dot] com**.
+📩 Or drop your query at **aniketbhatikar11 @gmail.com**.
 
