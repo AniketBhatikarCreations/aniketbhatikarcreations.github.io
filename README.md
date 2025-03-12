@@ -44,5 +44,5 @@ ABC's website is licensed under a **[Creative Commons Attribution-NoDerivatives 
 
 For any inquiries, contact via GitHub or social media links available on the website!
 
-📩 Or drop your query at **aniketbhatikar11 @gmail.com**.
+📩 Or drop your query at **aniketbhatikar11@gmail.com**.
 
