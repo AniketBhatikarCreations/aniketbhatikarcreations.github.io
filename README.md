@@ -1,6 +1,6 @@
 # Aniket Bhatikar Creations - Official Website
 
-
+![ABC Logo](abc.png)
 
 Welcome to the official website of **Aniket Bhatikar Creations**! This website showcases blogs, tutorials, and various projects by Aniket Bhatikar.
 
@@ -16,7 +16,7 @@ Welcome to the official website of **Aniket Bhatikar Creations**! This website s
 
 ## 🛠️ Technologies Used
 
-
+![Technologies](tech-stack.png)
 
 - **HTML, CSS, JavaScript**: Frontend development
 - **Utterances**: GitHub-powered comment system
@@ -36,6 +36,10 @@ Welcome to the official website of **Aniket Bhatikar Creations**! This website s
 3. 🛠️ Make changes and test locally
 4. 🔄 Submit a pull request
 
+## 📊 Website Views
+
+![Website Views](https://komarev.com/ghpvc/?username=AniketBhatikarCreations&label=Website%20Views&color=blue&style=flat)
+
 ## 📝 License
 
 ABC's website is licensed under a **[Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/)**.
@@ -45,4 +49,5 @@ ABC's website is licensed under a **[Creative Commons Attribution-NoDerivatives 
 For any inquiries, contact via GitHub or social media links available on the website!
 
 📩 Or drop your query at **aniketbhatikar11@gmail.com**.
+
 
