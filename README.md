@@ -16,8 +16,6 @@ Welcome to the official website of **Aniket Bhatikar Creations**! This website s
 
 ## 🛠️ Technologies Used
 
-![Technologies](tech-stack.png)
-
 - **HTML, CSS, JavaScript**: Frontend development
 - **Utterances**: GitHub-powered comment system
 - **GitHub Pages**: Hosting the website
