@@ -48,4 +48,6 @@ For any inquiries, contact via GitHub or social media links available on the web
 
 📩 Or drop your query at **aniketbhatikar11@gmail.com**.
 
+Thank You for visiting!
+
 
