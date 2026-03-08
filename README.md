@@ -9,8 +9,7 @@ Welcome to the official website of **Aniket Bhatikar Creations**! This website s
 - 🏠 **Home Page**: Overview of ABC and its mission.
 - 👤 **About Page**: Information about Aniket Bhatikar.
 - ✍️ **Blogs**: Articles and experiences shared by Aniket.
-- 📰 **ABC in Press**: Featured mentions and publications.
-- 📚 **Tutorials**: Guides and educational content.
+- 📰 **ABC's News Nook**: Featured mentions and publications.
 - 💬 **Comment Section**: Powered by Utterances, allowing GitHub users to engage in discussions.
 - 🔗 **Social Media Links**: Connect with ABC on YouTube, LinkedIn, and GitHub.
 
