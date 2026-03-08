@@ -5,6 +5,15 @@ body, h1 {
 
 }
 
+.description-press {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 1.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0bde6a;
+  text-align: center;
+}
+
 .media-heading {
     text-align: center; 
     font-family: 'Arial', sans-serif;
@@ -12,7 +21,7 @@ body, h1 {
     padding: 20px 0; 
     margin-bottom: 20px; 
     font-family: 'Gill Sans', Gill Sans; 
-    color: #ff7b00; 
+    color: #fff707;
     text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
     z-index: 100;
     white-space: nowrap;
@@ -29,9 +38,10 @@ h1 {
 }
 
 .media-post {
+    width: 900px;
     margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 15px;
     border: 5px solid #91bfda;
     background-color: rgb(243, 202, 126);
@@ -152,7 +162,7 @@ h1 {
     }
 
     .image-3 {
-        margin-left: 0;
+        margin-left: 1000px;
     }
     
     .image-17{

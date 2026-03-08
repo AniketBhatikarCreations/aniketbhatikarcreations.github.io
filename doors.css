@@ -28,8 +28,8 @@ body, html {
     width: 100%;
     height: 100%;
     z-index: 200;
-    background-color: rgb(255, 208, 0);
-    border: 10px solid #0e0901;
+    background-color:rgb(253, 141, 13);
+    border-right: 5px solid  #3b1803;
     transition: transform 3.7s ease; /* Animation duration */
     display: flex;
     justify-content: flex-end; /* Align content to the right */

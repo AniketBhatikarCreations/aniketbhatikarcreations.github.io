@@ -29,7 +29,7 @@ img {
   font-size: 5em;
   padding-bottom: 5px;
   font-family: "Gill Sans", Gill Sans;
-  color: #ff7b00;
+    color: #fff707;
   text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
   z-index: 100;
   white-space: nowrap;
@@ -47,27 +47,28 @@ img {
   font-family: "Arial", sans-serif;
   font-size: 1.3em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #a2ff8b;
+  color: #0bde6a;
   text-align: center;
 }
 
 .blog-post {
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 80px;
   margin-left: 80px;
-  padding: 80px;
-  border: 5px solid #91bfda;
-  background-color: rgb(15, 3, 59);
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 5px solid #025b00;
+  background-color: rgb(3, 103, 110);
   border-radius: 5px;
 }
 
 .blog-title {
   display: block;
-  font-size: 1.4em;
-  font-family: "Arial Rounded MT Bold";
-  font-weight: bold;
+  font-size: 200%;
+font-family: 'JetBrains Mono', monospace;  font-weight: bold;
   text-decoration: none;
-  color: #00fc0d;
+  text-decoration: underline;
+  color: #04201bf9;
   transition: border-color 0.3s ease;
 }
 
