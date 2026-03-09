@@ -1,4 +1,5 @@
-body, h1 {
+body,
+h1 {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -6,21 +7,21 @@ body, h1 {
 }
 
 .description-press {
-  text-align: center;
-  font-family: "Arial", sans-serif;
-  font-size: 1.3em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #0bde6a;
-  text-align: center;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0bde6a;
+    text-align: center;
 }
 
 .media-heading {
-    text-align: center; 
+    text-align: center;
     font-family: 'Arial', sans-serif;
     font-size: 4em;
-    padding: 20px 0; 
-    margin-bottom: 20px; 
-    font-family: 'Gill Sans', Gill Sans; 
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', Gill Sans;
     color: #fff707;
     text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
     z-index: 100;
@@ -49,7 +50,7 @@ h1 {
     height: auto;
 }
 
-.media-name{
+.media-name {
     display: block;
     font-size: 2.0em;
     font-family: "Stencil Regular";
@@ -58,7 +59,7 @@ h1 {
     color: #140000;
 }
 
-.border-change:hover img{
+.border-change:hover img {
     border-color: #250cff;
 }
 
@@ -66,11 +67,11 @@ h1 {
     margin-left: -115px
 }
 
-.image-17{
+.image-17 {
     margin-left: 50px;
 }
 
-.image-4{
+.image-4 {
     margin-left: 10px;
 }
 
@@ -78,39 +79,39 @@ h1 {
     margin-left: -90px;
 }
 
-.image-10{
+.image-10 {
     margin-left: 60px;
 }
 
-.image-13{
+.image-13 {
     margin-left: -69px;
 }
 
-.image-15{
-    margin-left:40px;
+.image-15 {
+    margin-left: 40px;
 }
 
-.image-14{
+.image-14 {
     margin-left: -100px;
 }
 
-.image-16{
+.image-16 {
     margin-left: 10px;
 }
 
-.image-12{
+.image-12 {
     margin-left: -100px;
 }
 
-.ftc1{
+.ftc1 {
     margin-left: -50px;
 }
 
-.sciffi{
+.sciffi {
     margin-left: 10000px;
-}  
+}
 
-.shivaji-1{
+.shivaji-1 {
     margin-left: -40px;
 }
 
@@ -129,16 +130,17 @@ h1 {
 @media only screen and (max-width: 600px) {
 
     .media-heading {
-        text-align: center; 
-        font-family: 'Arial', sans-serif;
+        text-align: center;
+        font-family: "Arial", sans-serif;
         font-size: 3.5em;
-        padding: 20px 0; 
-        margin-bottom: 20px; 
-        font-family: 'Gill Sans', Gill Sans; 
-        color: #ff7b00; 
+        padding: 20px 0;
+        margin-bottom: 20px;
+        font-family: 'Gill Sans', Gill Sans;
+        color: #fff707;
         text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
         z-index: 100;
-        white-space: nowrap;
+        white-space: normal;
+        max-width: 100%;
     }
 
     .media-post {
@@ -147,70 +149,91 @@ h1 {
         border: 5px solid #91bfda;
         background-color: rgb(243, 202, 126);
         border-radius: 5px;
+        box-sizing: border-box;
+        /* FIX: prevent width overflow */
+        max-width: 100%;
     }
-    
+
     .image-section {
         display: flex;
-        flex-wrap: wrap; /* Allow images to wrap to the next line */
+        flex-wrap: wrap;
         justify-content: center;
-        gap: 10px; /* Adding some space between images */
+        gap: 10px;
+        max-width: 100%;
+        /* FIX: keep container inside screen */
+        overflow: hidden;
     }
-    
+
     .image-section img {
-        max-width: 100%; /* Ensure images don't exceed their container's width */
+        max-width: 100%;
         height: auto;
+        display: block;
+        /* FIX: prevents inline overflow */
     }
 
     .image-3 {
-        margin-left: 1000px;
+        margin-left: 0;
+        /* FIX: was 1000px causing screen expansion */
     }
-    
-    .image-17{
+
+    .image-17 {
         margin-left: 0;
     }
-    .image-4{
+
+    .image-4 {
         margin-left: 0;
     }
+
     .image-9 {
         margin-left: 0;
     }
-    .image-10{
+
+    .image-10 {
         margin-left: 0;
     }
-    .image-13{
+
+    .image-13 {
         margin-left: 0;
     }
-    .image-15{
+
+    .image-15 {
         margin-left: 0;
     }
-    .image-14{
+
+    .image-14 {
         margin-left: 0;
     }
-    .image-16{
+
+    .image-16 {
         margin-left: 0;
     }
-    .image-12{
+
+    .image-12 {
         margin-left: 0;
     }
-    .ftc1{
+
+    .ftc1 {
         margin-left: 0;
     }
-    .sciffi{
-        margin-left: 0;
-    } 
-    .shivaji-1{
+
+    .sciffi {
         margin-left: 0;
     }
+
+    .shivaji-1 {
+        margin-left: 0;
+    }
+
     .shivajilink-1 {
         margin-left: 0;
     }
+
     .shivajilink-2 {
         margin-left: 0;
     }
+
     .shivajilink-2-text {
         margin-left: 0;
     }
-    
-    
+
 }
-  

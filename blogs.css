@@ -29,7 +29,7 @@ img {
   font-size: 5em;
   padding-bottom: 5px;
   font-family: "Gill Sans", Gill Sans;
-    color: #fff707;
+  color: #fff707;
   text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
   z-index: 100;
   white-space: nowrap;
@@ -65,7 +65,8 @@ img {
 .blog-title {
   display: block;
   font-size: 200%;
-font-family: 'JetBrains Mono', monospace;  font-weight: bold;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
   text-decoration: none;
   text-decoration: underline;
   color: #04201bf9;
@@ -178,7 +179,7 @@ font-family: 'JetBrains Mono', monospace;  font-weight: bold;
     padding: 20px 0;
     margin-bottom: 20px;
     font-family: "Gill Sans", Gill Sans;
-    color: #ff7b00;
+    color: #fff707;
     text-shadow: 4px 4px 8px rgba(255, 60, 0, 0.5);
     z-index: 100;
     white-space: nowrap;
@@ -198,14 +199,14 @@ font-family: 'JetBrains Mono', monospace;  font-weight: bold;
     font-family: "Arial", sans-serif;
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fd8dea;
+    color: #0bde6a;
     text-align: center;
   }
 
   .blog-post {
     margin-bottom: 20px;
-    border: 5px solid #7f7f7f;
-    background-color: rgb(8, 4, 50);
+    border: 5px solid #025b00;
+    background-color: rgb(3, 103, 110);
     border-radius: 5px;
     margin: 10px 5px;
     overflow: hidden;
@@ -219,7 +220,7 @@ font-family: 'JetBrains Mono', monospace;  font-weight: bold;
     text-align: center;
     font-size: 1.6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ccff00;
+    color: #04201bf9;
     text-decoration: underline;
     white-space: nowrap;
     overflow: hidden;
@@ -236,7 +237,7 @@ font-family: 'JetBrains Mono', monospace;  font-weight: bold;
 
   .blog-description {
     font-size: 1em;
-    color: #80f479;
+    color: #bbbbbb;
     text-align: justify;
     margin: 10px 20px;
     overflow-y: hidden;
