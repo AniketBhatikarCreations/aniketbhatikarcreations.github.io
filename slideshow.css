@@ -16,7 +16,10 @@
       border: 10px solid #00b7ff;
       border-radius: 10px;
   }
-
+.slider-container :hover {
+    background-color: #00c8ff;
+    border: 4px solid #010120;
+}
   .slide {
       display: none;
       width: 100%;
